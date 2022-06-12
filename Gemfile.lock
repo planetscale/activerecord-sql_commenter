@@ -47,6 +47,10 @@ GEM
       concurrent-ruby (~> 1.0)
     unicode-display_width (2.1.0)
 
+PLATFORMS
+  x86_64-darwin-20
+  x86_64-linux
+
 DEPENDENCIES
   activerecord-sql_commenter!
   minitest (~> 5.8)
