@@ -16,6 +16,7 @@ module SqlCommenter
             self.tags_formatter ||= QueryLogs::Formatter.new
           end
 
+          undef tag_content
           def tag_content
             context = ActiveSupport::ExecutionContext.to_h
 

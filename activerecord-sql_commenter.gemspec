@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "lib/activerecord/sql_commenter/version"
+require_relative "lib/sql_commenter/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "activerecord-sql_commenter"
@@ -30,4 +30,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "activerecord", "~> 7.0.0"
   spec.add_dependency "activesupport", "~> 7.0.0"
+  spec.add_development_dependency "sqlite3"
 end
