@@ -26,6 +26,27 @@ And then execute:
 
     $ bundle install
 
+## Enabling Query Log Tags
+In your Rails application, add the following to `config/application.rb`.
+
+```ruby
+config.active_record.query_log_tags_enabled = true
+```
+
+You can define which tags are added to queries.
+
+```ruby
+config.active_record.query_log_tags = [ :application, :controller, :action, :job ]
+```
+
+Tags can also be cached per request or job execution.
+
+```ruby
+config.active_record.cache_query_log_tags = true
+```
+
+To learn more, see the [full documentation here](https://api.rubyonrails.org/classes/ActiveRecord/QueryLogs.html).
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
@@ -42,4 +63,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the Activerecord::SqlCommenter project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/mscoutermarsh/activerecord-sql_commenter/blob/main/CODE_OF_CONDUCT.md).
+Everyone interacting in the ActiveRecord::SqlCommenter project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/mscoutermarsh/activerecord-sql_commenter/blob/main/CODE_OF_CONDUCT.md).
