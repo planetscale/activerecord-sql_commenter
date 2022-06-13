@@ -1,0 +1,27 @@
+---
+- - :permit
+  - MIT
+  - :who: 
+    :why: 
+    :versions: []
+    :when: 2022-06-13 16:22:04.433565000 Z
+- - :approve
+  - sqlite3
+  - &1
+    :who: 
+    :why: 
+    :versions: []
+    :when: 2022-06-13 16:26:54.044527000 Z
+- - :approve
+  - New BSD
+  - *1
+- - :approve
+  - rexml
+  - &2
+    :who: 
+    :why: 
+    :versions: []
+    :when: 2022-06-13 16:27:09.213502000 Z
+- - :approve
+  - Simplified BSD
+  - *2
