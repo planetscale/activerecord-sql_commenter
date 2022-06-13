@@ -19,7 +19,7 @@ select * from users /*application='apibb',controller='database_info',action='sho
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'activerecord-sql_commenter'
+gem 'activerecord-sql_commenter', require: "active_record/sql_commenter"
 ```
 
 And then execute:

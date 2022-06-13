@@ -1,10 +1,10 @@
 # frozen_string_literal: true
 
-require_relative "lib/sql_commenter/version"
+require_relative "lib/active_record/sql_commenter/version"
 
 Gem::Specification.new do |spec|
   spec.name          = "activerecord-sql_commenter"
-  spec.version       = Activerecord::SqlCommenter::VERSION
+  spec.version       = ActiveRecord::SqlCommenter::VERSION
   spec.authors       = ["Mike Coutermarsh", "Iheanyi Ekechukwu"]
   spec.email         = ["coutermarsh.mike@gmail.com"]
 

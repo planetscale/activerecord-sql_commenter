@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "../lib/sql_commenter"
+require_relative "../lib/active_record/sql_commenter"
 
 require "minitest/autorun"
 require "active_record"
