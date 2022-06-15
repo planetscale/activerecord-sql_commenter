@@ -1,4 +1,5 @@
 # ActiveRecord SqlCommenter
+[![Gem Version](https://badge.fury.io/rb/activerecord-sql_commenter.svg)](https://badge.fury.io/rb/activerecord-sql_commenter)
 
 Transform your Rail's query comments into [SqlCommenter](https://google.github.io/sqlcommenter/) format.
 
