@@ -65,5 +65,5 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 Everyone interacting in the ActiveRecord::SqlCommenter project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/mscoutermarsh/activerecord-sql_commenter/blob/main/CODE_OF_CONDUCT.md).
 
-## Thanks
+## Thanks ❤️
 Thank you to @modulitos for the [original implementation contributed to Marginalia](https://github.com/basecamp/marginalia/pull/130).
