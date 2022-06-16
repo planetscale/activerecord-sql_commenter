@@ -7,7 +7,7 @@ SqlCommenter is compatible with [PlanetScale's Query Insights](https://docs.plan
 
 **Before:**
 ```sql
-select * from users /*application:'apibb',controller:'database_info',action:'show'*/
+select * from users /*application:apibb,controller:database_info,action:show*/
 ```
 
 **After:**
