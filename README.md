@@ -3,7 +3,7 @@
 
 Transform your Rail's query comments into [SqlCommenter](https://google.github.io/sqlcommenter/) format.
 
-SqlCommenter is compatible with [PlanetScale's Query Insights](https://docs.planetscale.com/concepts/query-insights).
+SqlCommenter is compatible with [PlanetScale's Query Insights](https://planetscale.com/docs/concepts/query-insights).
 
 **Before:**
 ```sql
