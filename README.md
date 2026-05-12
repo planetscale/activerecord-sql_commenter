@@ -1,3 +1,9 @@
+> [!NOTE]  
+> With Rails 7.1, Rails query comments can be configured to use the `sqlcommenter` format
+> `config.active_record.query_log_tags_format = :sqlcommenter`
+> https://guides.rubyonrails.org/configuring.html#config-active-record-query-log-tags-format
+> This gem is no longer necessary.
+
 # ActiveRecord SqlCommenter
 [![Gem Version](https://badge.fury.io/rb/activerecord-sql_commenter.svg)](https://badge.fury.io/rb/activerecord-sql_commenter)
 
